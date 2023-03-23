@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-    res.json({ message: "Welcome to Soft Valley CRM Server" })
+    res.json({ message: "Welcome to Hero Rider Server" })
 });
 
 require('./dbConnect')();
