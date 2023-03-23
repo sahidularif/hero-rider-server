@@ -18,6 +18,10 @@ const newUser = new Schema({
     nidPicture: String,
     profilePicture: String,
     userType: String,
+    status: {
+        type: String,
+        default: 'Active'
+    }
 },
     { timestamps: true });
 
