@@ -6,7 +6,7 @@ const DBURL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWOR
 const dbConnect = () => {
 	const db = mongoose.connection
 	mongoose.connect(
-		DBURL,
+		DB,
 		{ useNewUrlParser: true, useUnifiedTopology: true },
 		() => {
 			console.log("connected to mongodb");

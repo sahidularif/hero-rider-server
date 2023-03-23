@@ -17,6 +17,7 @@ const newUser = new Schema({
     licencePicture: String,
     nidPicture: String,
     profilePicture: String,
+    userType: String,
 },
     { timestamps: true });
 
